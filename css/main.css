@@ -1,0 +1,120 @@
+html {
+  background-color: #f7f7f7;
+  font-size: 62.5%;
+  font-family: Ubuntu, sans-serif;
+}
+
+p {
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+p a {
+  border-bottom: 0.2rem solid #1caee2;
+  color: #000;
+  font-weight: bold;
+}
+
+p a:hover {
+  border-color: #87ceeb;
+}
+
+button {
+  padding: 0.4rem 1rem;
+  border: 0.1rem solid #288519;
+  border-radius: 5px;
+  box-shadow: inset 0 0.1rem 0 0 #d2f9b2;
+  color: #fff;
+  background-color: #6dc227;
+  outline: 0;
+  font-weight: 700;
+}
+
+button:enabled:hover {
+  background-color: #77d42a;
+}
+
+button:active {
+  position: relative;
+  top: 0.1rem;
+  outline: 0;
+}
+
+button:disabled {
+  border-color: #777;
+  box-shadow: inset 0 0.1rem 0 0 #fff;
+  background-color: #bbb;
+}
+
+#mainContainer {
+  position: relative;
+  width: 95rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mainContainer > header h1 {
+  color: #bbb;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: -0.2rem;
+  line-height: 200%;
+}
+
+#mainContainer > header nav {
+  position: absolute;
+  top: 2.5rem;
+  right: 2rem;
+}
+
+.blockLinks li {
+  display: inline;
+}
+
+.blockLinks a,
+.blockLinks span {
+  display: inline-block;
+  padding: 0.6rem 1rem 0.5rem 1rem;
+  color: #fff;
+  background-color: #999;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.blockLinks span {
+  cursor: pointer;
+}
+
+.blockLinks a:hover,
+.blockLinks span:hover,
+.blockLinks [href="#"],
+#selectedTabHeading > span {
+  background-color: #555;
+}
+
+.blockLinks a {
+  color: #fff;
+}
+
+#contentContainer {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contentContainer h2 {
+  display: inline;
+  color: #777;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+#contentContainer nav {
+  float: right;
+}
+
+#mainContainer > footer {
+  margin-top: 3rem;
+}

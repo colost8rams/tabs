@@ -1,0 +1,7 @@
+#contentContainer {
+  width: 50%;
+}
+
+#tabContents > div:not(#selectedTabContent) {
+  display: none;
+}
