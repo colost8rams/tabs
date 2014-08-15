@@ -1,4 +1,4 @@
-// JavaScript tabs. Written by P Cope.
+// JavaScript tabs. Copyright (c) P Cope 2014.
 
 var displayTab = function() {
 
