@@ -11,13 +11,16 @@ p {
 }
 
 p a {
-  border-bottom: 0.2rem solid #1caee2;
+  border-bottom: 0.2rem solid #add8e6;
   color: #000;
   font-weight: bold;
+  transition: border-bottom 0.18s, color 0.18s;
 }
 
 p a:hover {
-  border-color: #87ceeb;
+  border-bottom: 0.2rem solid transparent;
+  color: #0093af;
+  transition: border-bottom 0.2s, color 0.2s;
 }
 
 button {
@@ -35,7 +38,7 @@ button:enabled:hover {
   background-color: #77d42a;
 }
 
-button:active {
+button:enabled:active {
   position: relative;
   top: 0.1rem;
   outline: 0;
